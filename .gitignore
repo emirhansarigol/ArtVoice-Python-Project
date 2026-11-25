@@ -1,0 +1,24 @@
+# Python & Sanal Ortam
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# Gizli Ortam Değişkenleri (ASLA GİTMEMELİ)
+.env
+.env.local
+.env.*.local
+
+# IDE & İşletim Sistemi Çöpleri
+.idea/
+.vscode/
+.DS_Store
+
+# Lokal Docker / Veritabanı Veri Klasörleri (bind mount varsa)
+postgres_data/
+pgdata/
+minio_data/
+redis_data/
+*.log
